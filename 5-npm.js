@@ -24,6 +24,13 @@ So simple! Just type in the command line:
         => it will automatic install all the package that our code use
 To install a package for developer ( which mean dev dependencies)
     npm i <package name> -D (or --save-dev)
+The script int package.json file is powerful. With nodemon, we can complie automatic
+every time we save the file. That is so useful. To run nodemon:
+    npm run <name in object of script>
+to remove the package we just installed
+    npm uninstall <package name>
+more information about package.json file:   
+    visit: nodesource.com
 */
 
 const lodash = require("lodash");
