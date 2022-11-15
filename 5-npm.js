@@ -12,6 +12,16 @@ package.json: include information about the project we are working on
     npm init -y 
         => this will create the package.json automatically
 the package we just installed can be use as an in-built module!
+
+what does the file package.json do?
+if we want to share our code to the github, we don't want to share the package we use
+because it is too heavy. So, we share the package.json to the github, which inclue 
+information about the package we use
+When another one want to use our code, he/she clone it to his/her computer.
+But, how can they dowload all the package we use to run the code
+So simple! Just type in the command line: 
+    npm install
+        => it will automatic install all the package that our code use
 */
 
 const lodash = require("lodash");
