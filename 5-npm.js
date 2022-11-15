@@ -22,6 +22,8 @@ But, how can they dowload all the package we use to run the code
 So simple! Just type in the command line: 
     npm install
         => it will automatic install all the package that our code use
+To install a package for developer ( which mean dev dependencies)
+    npm i <package name> -D (or --save-dev)
 */
 
 const lodash = require("lodash");
